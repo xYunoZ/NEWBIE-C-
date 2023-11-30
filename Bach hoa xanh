@@ -1,0 +1,17 @@
+#include<iostream>
+
+using namespace std;
+
+int main() {
+	int giatrivatpham, tienkhachdua, sotiencantra;
+	cout << "Nhap gia tri cua vat pham: ";
+	cin >> giatrivatpham;
+	cout << "Vat pham co gia tri la: " << giatrivatpham<< endl;
+	cout << "nhap so tien khach dua: ";
+	cin >> tienkhachdua;
+	cout << "so tien khach dua la: " << tienkhachdua << endl;
+	sotiencantra = tienkhachdua - giatrivatpham;
+	cout << "So tien can tra cho khach: " << sotiencantra;
+		
+	return 0;
+}
