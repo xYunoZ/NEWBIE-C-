@@ -1,0 +1,20 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+
+
+int main() {
+	int chieucao, canhday, dientich;
+	cout << "Nhap chieu cao: "; 
+	cin >> chieucao;
+	cout << "Chieu cao hinh tam giac la: " << chieucao << endl;
+    cout << "Nhap canh day: "; 
+	cin >> canhday;
+	cout << "Canh day cua tam giac la: " << canhday << endl;
+	dientich = (canhday * chieucao) / 2;
+	cout << "Dien tich hinh tam giac la: " << dientich << endl;
+
+		
+	return 0;
+}
