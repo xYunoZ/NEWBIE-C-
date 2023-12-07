@@ -1,0 +1,28 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+
+
+int main() {
+	float a, b, c, average;
+	cout << " nhap 3 so: ";
+	cin >> a >> b >> c;
+	average = (a + b + c) / 3;
+	if (average >= 9.0) {
+		cout << "Hang A";
+
+	}
+	else if (average >= 7.0) {
+		cout << "Hang B";
+
+	}
+	else if (average >= 5.0) {
+		cout << "Hang C";
+
+	}
+	else
+		cout << "Hang F";
+	
+	return 0;
+}
